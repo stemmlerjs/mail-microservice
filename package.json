@@ -12,7 +12,9 @@
   "dependencies": {
     "aws-sdk": "^2.224.1",
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "config-yml": "^0.8.0",
+    "express": "^4.16.3",
     "mailgun-js": "^0.16.0",
     "mysql": "^2.13.0",
     "nodemailer": "^4.0.1"

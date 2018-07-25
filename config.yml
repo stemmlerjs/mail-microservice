@@ -1,16 +1,13 @@
-
 # Mailer config
-
 application:
+  announce_timeout_milliseconds: 10000
   refresh_rate_milliseconds: 3000
   max_db_connection_attempts: 10
   service_interval_time_seconds: 2
-  
-reporter:
-  active: true
-  log_interval_milliseconds: 10000
+  from_addr: 'khalilstemmler@gmail.com'
 
 mail_rate:
   verifiy_emails_per_hour: 1400
   max_emails_per_hour: 2000
+
 
