@@ -1,6 +1,38 @@
 # mail-microservice
 Mail micro service for my node apps.
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+- NodeJS
+- Amazon API Key
+
+### Running the example
+
+The Mailer microservice can be run with:
+
+```
+npm run start
+```
+
+And then to run the mock service registry, run:
+
+```
+node example/app.js
+```
+
+To test out an email, send `POST` request to ```http://127.0.0.1:3000/register``` with the body as follows:
+
+```
+{
+   "email": "youremail@gmail.com",
+   "password": "examplepassword"
+}
+```
+
 ## v2
 ### Branch: master
 Version 2 is an improvement that allows me to plug this into any app backend now.
